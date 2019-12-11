@@ -4,7 +4,12 @@ if phrase == "I LOVE YOU GRANDMA!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-  
+   elsif phrase == phrase.downcase
+  		return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.downcase
+      return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.upcase
+      return "NO, NOT SINCE 1938!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
