@@ -3,6 +3,8 @@ def speak_to_grandma(phrase)
   if phrase == phrase.upcase
     return "I LOVE YOU TOO PUMPKIN!"
   
+elsif phrase == phrase.capitalize
+    return "HUH?! SPEAK UP SONNY!"
    
  
 # Whatever you say to grandma, she should respond with
@@ -16,4 +18,5 @@ def speak_to_grandma(phrase)
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-endend
+  end
+end
